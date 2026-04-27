@@ -24,15 +24,15 @@
 
     // --- Marker (Objek Titik) ---
     var marker1 = L.marker([-6.921572372462819, 110.20404407338845]).addTo(mymap);
-    marker1.bindPopup('<b>Titik A</b><br>id: 1');
+    marker1.bindPopup('<b>Titik A</b><br>Alun-alun Kabupaten Kendal');
 
     // --- Marker (Objek Titik) ---
     var marker3 = L.marker([-6.924647004656151, 110.20373586182643]).addTo(mymap);
-    marker3.bindPopup('<b>Titik B</b><br>id: 3');
+    marker3.bindPopup('<b>Titik B</b><br>Rumah');
 
     // --- Marker (Objek Titik) ---
     var marker5 = L.marker([-6.9267488313117695, 110.16579474551838]).addTo(mymap);
-    marker5.bindPopup('<b>Titik C</b><br>id: 5');
+    marker5.bindPopup('<b>Titik C</b><br>Tugu Patebon');
 
     // --- Circle Polygon (id:0) ---
     var circlePolygon = L.polygon([
@@ -107,7 +107,7 @@
       fillColor: '#ffffff',
       fillOpacity: 0.5
     }).addTo(mymap);
-    circlePolygon.bindPopup('Area Lingkaran');
+    circlePolygon.bindPopup('Kawasan Ibukota Kabupaten Kendal');
 
     // --- Polyline (id:2) ---
     var polyline = L.polyline([
@@ -124,7 +124,7 @@
       weight: 3,
       opacity: 1
     }).addTo(mymap);
-    polyline.bindPopup('Jalur');
+    polyline.bindPopup('Jalan Raya Soekarno Hatta');
 
     // --- Polygon Kotak ---
     var boxPolygon = L.polygon([
@@ -138,7 +138,7 @@
       fillColor: '#fcfcfc',
       fillOpacity: 0.5
     }).addTo(mymap);
-    boxPolygon.bindPopup('Area Kotak');
+    boxPolygon.bindPopup('Kecamatan Patebon');
 
   </script>
 </body>
